@@ -13,7 +13,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
      });
 });
 
-$("a.navbar-brand[href^='jumbotron']").on('click', function(e) {
+$("a.navbar-brand[href^='#']").on('click', function(e) {
    // prevent default anchor click behavior
    e.preventDefault();
    // store hash
