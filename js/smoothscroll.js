@@ -1,4 +1,4 @@
-<em>$(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
+$(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    // prevent default anchor click behavior
    e.preventDefault();
    // store hash
@@ -11,4 +11,4 @@
        // (default click behaviour)
        window.location.hash = hash;
      });
-});<br></em>
+});
